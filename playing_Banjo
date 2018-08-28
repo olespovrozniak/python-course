@@ -1,0 +1,6 @@
+def areYouPlayingBanjo(name):
+    if name[0] != "r" and name[0] != "R":
+        name = name + " does not play banjo"
+    else:
+        name = name + " plays banjo" 
+    return name

@@ -1,0 +1,10 @@
+a = input("please add 4 digits ")
+mult = 1
+for i in a:
+    mult = mult * int(i)
+print("multiplication is ", mult)
+print("reversing is ", str(''.join(reversed(str(a)))))
+#print("sortig is ", ''.join(str(list(str(a)).sort())))
+sort_list=list(str(a))
+sort_list.sort()
+print("Sorted number: ", ''.join(sort_list))
