@@ -1,0 +1,7 @@
+def reverse(a):
+    a = a.split(' ')
+    a.reverse()
+    a =' '.join(a)
+    return a 
+a ="hrloo world"
+print(reverse)
