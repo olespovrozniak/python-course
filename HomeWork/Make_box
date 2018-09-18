@@ -1,0 +1,7 @@
+def box(n):
+   v =[]
+   v.append('-'*n)
+   for i in range(n-2):
+       v.append('-'+(' '*(n-2))+'-')
+   v.append('-'*n)
+   return v
